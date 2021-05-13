@@ -1,1 +1,5 @@
 This journal/text_file is here just to be destroyed. my goal is to laugh as I create conflict after conflict for the poor repo that this file resides in.
+
+
+may 13 2021 
+  here I am testing is a cloned repo can be synced  back to the original repo by ediditing the repository in github then following the instructions to synce the repository 
