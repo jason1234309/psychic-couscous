@@ -10,7 +10,7 @@ current_directory = os.getcwd()
 
 data_rows = ""
 
-header = "Part, I/O Pin Count, Available IOBs, LUT Elements, FlipFlops, Block RAMs, DSPs"
+header = "Part, Bonded_Sites Block RAMs, DSPs, CLBLs"
 
 sys.stdout = open('part_hardware_list.csv', 'w')               
 print(header)
@@ -25,9 +25,6 @@ for part in partNames:
         lines = part_data.read()
         print(lines)
 
-
-
-
-
-
 sys.stdout.close()
+
+print("Finished")
