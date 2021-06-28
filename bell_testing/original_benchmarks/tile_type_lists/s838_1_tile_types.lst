@@ -1,0 +1,339 @@
+Cell_List: C_0_IBUF_inst C_10_IBUF_inst C_11_IBUF_inst C_12_IBUF_inst C_13_IBUF_inst C_14_IBUF_inst C_15_IBUF_inst C_16_IBUF_inst C_17_IBUF_inst C_18_IBUF_inst C_19_IBUF_inst C_1_IBUF_inst C_20_IBUF_inst C_21_IBUF_inst C_22_IBUF_inst C_23_IBUF_inst C_24_IBUF_inst C_25_IBUF_inst C_26_IBUF_inst C_27_IBUF_inst C_28_IBUF_inst C_29_IBUF_inst C_2_IBUF_inst C_30_IBUF_inst C_31_IBUF_inst C_32_IBUF_inst C_3_IBUF_inst C_4_IBUF_inst C_5_IBUF_inst C_6_IBUF_inst C_7_IBUF_inst C_8_IBUF_inst C_9_IBUF_inst P_0_IBUF_inst VCC X_10_i_1 X_10_i_2 X_10_reg X_11_i_1 X_11_reg X_12_i_1 X_12_reg X_13_i_1 X_13_reg X_14_i_1 X_14_i_2 X_14_i_3 X_14_reg X_15_i_1 X_15_i_2 X_15_i_3 X_15_reg X_16_i_1 X_16_reg X_17_i_1 X_17_i_2 X_17_i_3 X_17_i_4 X_17_i_5 X_17_reg X_18_i_1 X_18_reg X_19_i_1 X_19_reg X_1_i_1 X_1_reg X_20_i_1 X_20_i_2 X_20_reg X_21_i_1 X_21_reg X_22_i_1 X_22_i_2 X_22_reg X_23_i_1 X_23_i_2 X_23_reg X_24_i_1 X_24_i_2 X_24_i_3 X_24_reg X_25_i_1 X_25_reg X_26_i_1 X_26_i_2 X_26_i_3 X_26_i_4 X_26_i_5 X_26_reg X_27_i_1 X_27_i_2 X_27_i_3 X_27_reg X_28_i_1 X_28_i_2 X_28_reg X_29_i_1 X_29_i_2 X_29_i_3 X_29_i_4 X_29_reg X_2_i_1 X_2_reg X_30_i_1 X_30_reg X_31_i_1 X_31_i_2 X_31_reg X_32_i_1 X_32_reg X_3_i_1 X_3_reg X_4_i_1 X_4_reg X_5_i_1 X_5_reg X_6_i_1 X_6_i_2 X_6_reg X_7_i_1 X_7_reg X_8_i_1 X_8_reg X_9_i_1 X_9_reg Z_OBUF_inst Z_OBUF_inst_i_1 Z_OBUF_inst_i_10 Z_OBUF_inst_i_11 Z_OBUF_inst_i_12 Z_OBUF_inst_i_13 Z_OBUF_inst_i_14 Z_OBUF_inst_i_15 Z_OBUF_inst_i_16 Z_OBUF_inst_i_17 Z_OBUF_inst_i_18 Z_OBUF_inst_i_19 Z_OBUF_inst_i_2 Z_OBUF_inst_i_20 Z_OBUF_inst_i_21 Z_OBUF_inst_i_22 Z_OBUF_inst_i_23 Z_OBUF_inst_i_24 Z_OBUF_inst_i_25 Z_OBUF_inst_i_26 Z_OBUF_inst_i_27 Z_OBUF_inst_i_28 Z_OBUF_inst_i_29 Z_OBUF_inst_i_3 Z_OBUF_inst_i_30 Z_OBUF_inst_i_31 Z_OBUF_inst_i_32 Z_OBUF_inst_i_33 Z_OBUF_inst_i_34 Z_OBUF_inst_i_35 Z_OBUF_inst_i_36 Z_OBUF_inst_i_37 Z_OBUF_inst_i_4 Z_OBUF_inst_i_5 Z_OBUF_inst_i_6 Z_OBUF_inst_i_7 Z_OBUF_inst_i_8 Z_OBUF_inst_i_9 blif_clk_net_IBUF_BUFG_inst blif_clk_net_IBUF_inst blif_reset_net_IBUF_inst
+Site_List: BUFGCTRL_X0Y0 IOB_X0Y135 IOB_X0Y136 IOB_X0Y133 IOB_X0Y134 IOB_X0Y131 IOB_X0Y132 IOB_X0Y129 IOB_X0Y130 IOB_X0Y127 IOB_X0Y128 IOB_X0Y125 IOB_X0Y126 IOB_X0Y123 IOB_X0Y124 IOB_X0Y121 IOB_X0Y122 SLICE_X1Y120 SLICE_X0Y120 IOB_X0Y119 IOB_X0Y120 SLICE_X1Y119 SLICE_X0Y119 SLICE_X1Y118 SLICE_X0Y118 SLICE_X2Y118 SLICE_X3Y118 IOB_X0Y117 IOB_X0Y118 SLICE_X1Y117 SLICE_X0Y117 SLICE_X2Y117 SLICE_X3Y117 SLICE_X1Y116 SLICE_X0Y116 SLICE_X2Y116 SLICE_X3Y116 IOB_X0Y115 IOB_X0Y116 SLICE_X1Y115 SLICE_X0Y115 SLICE_X2Y115 SLICE_X1Y114 SLICE_X0Y114 IOB_X0Y113 IOB_X0Y114 IOB_X0Y111 IOB_X0Y112 IOB_X0Y109 IOB_X0Y110 IOB_X0Y107 IOB_X0Y108 IOB_X0Y105 IOB_X0Y106 IOB_X0Y103 IOB_X0Y104 IOB_X0Y101 IOB_X0Y102 IOB_X0Y100
+Site_Types:
+{Site Type: IOB33} {Alternate Type: IOB33S IOB33M 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {VCC does not have a site} {
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEM} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: SLICEL} {Alternate Type: 
+} {Site Type: BUFGCTRL} {Alternate Type: BUFG 
+} {Site Type: IOB33M} {Alternate Type: IOB33 IPAD 
+} {Site Type: IOB33S} {Alternate Type: IOB33 IPAD 
+}
+Used_Site_Types:
+{Cell: C_0_IBUF_inst} {, Tile_Type: LIOB33_SING_X0Y100} {, Used_Site_Type: IOB33} {
+} {Cell: C_10_IBUF_inst} {, Tile_Type: LIOB33_X0Y101} {, Used_Site_Type: IOB33} {
+} {Cell: C_11_IBUF_inst} {, Tile_Type: LIOB33_X0Y103} {, Used_Site_Type: IOB33} {
+} {Cell: C_12_IBUF_inst} {, Tile_Type: LIOB33_X0Y103} {, Used_Site_Type: IOB33} {
+} {Cell: C_13_IBUF_inst} {, Tile_Type: LIOB33_X0Y105} {, Used_Site_Type: IOB33} {
+} {Cell: C_14_IBUF_inst} {, Tile_Type: LIOB33_X0Y105} {, Used_Site_Type: IOB33} {
+} {Cell: C_15_IBUF_inst} {, Tile_Type: LIOB33_X0Y107} {, Used_Site_Type: IOB33} {
+} {Cell: C_16_IBUF_inst} {, Tile_Type: LIOB33_X0Y107} {, Used_Site_Type: IOB33} {
+} {Cell: C_17_IBUF_inst} {, Tile_Type: LIOB33_X0Y109} {, Used_Site_Type: IOB33} {
+} {Cell: C_18_IBUF_inst} {, Tile_Type: LIOB33_X0Y109} {, Used_Site_Type: IOB33} {
+} {Cell: C_19_IBUF_inst} {, Tile_Type: LIOB33_X0Y111} {, Used_Site_Type: IOB33} {
+} {Cell: C_1_IBUF_inst} {, Tile_Type: LIOB33_X0Y101} {, Used_Site_Type: IOB33} {
+} {Cell: C_20_IBUF_inst} {, Tile_Type: LIOB33_X0Y113} {, Used_Site_Type: IOB33} {
+} {Cell: C_21_IBUF_inst} {, Tile_Type: LIOB33_X0Y113} {, Used_Site_Type: IOB33} {
+} {Cell: C_22_IBUF_inst} {, Tile_Type: LIOB33_X0Y115} {, Used_Site_Type: IOB33} {
+} {Cell: C_23_IBUF_inst} {, Tile_Type: LIOB33_X0Y115} {, Used_Site_Type: IOB33} {
+} {Cell: C_24_IBUF_inst} {, Tile_Type: LIOB33_X0Y117} {, Used_Site_Type: IOB33} {
+} {Cell: C_25_IBUF_inst} {, Tile_Type: LIOB33_X0Y117} {, Used_Site_Type: IOB33} {
+} {Cell: C_26_IBUF_inst} {, Tile_Type: LIOB33_X0Y119} {, Used_Site_Type: IOB33} {
+} {Cell: C_27_IBUF_inst} {, Tile_Type: LIOB33_X0Y119} {, Used_Site_Type: IOB33} {
+} {Cell: C_28_IBUF_inst} {, Tile_Type: LIOB33_X0Y121} {, Used_Site_Type: IOB33} {
+} {Cell: C_29_IBUF_inst} {, Tile_Type: LIOB33_X0Y121} {, Used_Site_Type: IOB33} {
+} {Cell: C_2_IBUF_inst} {, Tile_Type: LIOB33_X0Y111} {, Used_Site_Type: IOB33} {
+} {Cell: C_30_IBUF_inst} {, Tile_Type: LIOB33_X0Y123} {, Used_Site_Type: IOB33} {
+} {Cell: C_31_IBUF_inst} {, Tile_Type: LIOB33_X0Y125} {, Used_Site_Type: IOB33} {
+} {Cell: C_32_IBUF_inst} {, Tile_Type: LIOB33_X0Y125} {, Used_Site_Type: IOB33} {
+} {Cell: C_3_IBUF_inst} {, Tile_Type: LIOB33_X0Y123} {, Used_Site_Type: IOB33} {
+} {Cell: C_4_IBUF_inst} {, Tile_Type: LIOB33_X0Y127} {, Used_Site_Type: IOB33} {
+} {Cell: C_5_IBUF_inst} {, Tile_Type: LIOB33_X0Y129} {, Used_Site_Type: IOB33} {
+} {Cell: C_6_IBUF_inst} {, Tile_Type: LIOB33_X0Y129} {, Used_Site_Type: IOB33} {
+} {Cell: C_7_IBUF_inst} {, Tile_Type: LIOB33_X0Y131} {, Used_Site_Type: IOB33} {
+} {Cell: C_8_IBUF_inst} {, Tile_Type: LIOB33_X0Y131} {, Used_Site_Type: IOB33} {
+} {Cell: C_9_IBUF_inst} {, Tile_Type: LIOB33_X0Y133} {, Used_Site_Type: IOB33} {
+} {Cell: P_0_IBUF_inst} {, Tile_Type: LIOB33_X0Y133} {, Used_Site_Type: IOB33} {
+} {Cell: X_10_i_1} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_10_i_2} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_10_reg} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_11_i_1} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_11_reg} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_12_i_1} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_12_reg} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_13_i_1} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_13_reg} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_14_i_1} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_14_i_2} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_14_i_3} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_14_reg} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_15_i_1} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_15_i_2} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_15_i_3} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_15_reg} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_16_i_1} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_16_reg} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_17_i_1} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_17_i_2} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEM} {
+} {Cell: X_17_i_3} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEM} {
+} {Cell: X_17_i_4} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_17_i_5} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_17_reg} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_18_i_1} {, Tile_Type: CLBLL_L_X2Y114} {, Used_Site_Type: SLICEL} {
+} {Cell: X_18_reg} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_19_i_1} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_19_reg} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_1_i_1} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_1_reg} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_20_i_1} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_20_i_2} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_20_reg} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_21_i_1} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_21_reg} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_22_i_1} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_22_i_2} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_22_reg} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_23_i_1} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_23_i_2} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEM} {
+} {Cell: X_23_reg} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_24_i_1} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_24_i_2} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_24_i_3} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: X_24_reg} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_25_i_1} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_25_reg} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_26_i_1} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_26_i_2} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: X_26_i_3} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_26_i_4} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_26_i_5} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEM} {
+} {Cell: X_26_reg} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_27_i_1} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_27_i_2} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_27_i_3} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEM} {
+} {Cell: X_27_reg} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_28_i_1} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_28_i_2} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_28_reg} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_29_i_1} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_29_i_2} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_29_i_3} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: X_29_i_4} {, Tile_Type: CLBLM_R_X3Y117} {, Used_Site_Type: SLICEM} {
+} {Cell: X_29_reg} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_2_i_1} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_2_reg} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_30_i_1} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_30_reg} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_31_i_1} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: X_31_i_2} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: X_31_reg} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: X_32_i_1} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: X_32_reg} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: X_3_i_1} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_3_reg} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_4_i_1} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_4_reg} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_5_i_1} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_5_reg} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: X_6_i_1} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_6_i_2} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: X_6_reg} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_7_i_1} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_7_reg} {, Tile_Type: CLBLM_R_X3Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_8_i_1} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_8_reg} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_9_i_1} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: X_9_reg} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst} {, Tile_Type: LIOB33_X0Y135} {, Used_Site_Type: IOB33} {
+} {Cell: Z_OBUF_inst_i_1} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_10} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_11} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_12} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_13} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_14} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_15} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_16} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_17} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_18} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_19} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_2} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_20} {, Tile_Type: CLBLL_L_X2Y118} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_21} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_22} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_23} {, Tile_Type: CLBLL_L_X2Y114} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_24} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_25} {, Tile_Type: CLBLM_R_X3Y115} {, Used_Site_Type: SLICEM} {
+} {Cell: Z_OBUF_inst_i_26} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_27} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_28} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_29} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_3} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: Z_OBUF_inst_i_30} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_31} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_32} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_33} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_34} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: Z_OBUF_inst_i_35} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_36} {, Tile_Type: CLBLL_L_X2Y114} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_37} {, Tile_Type: CLBLL_L_X2Y120} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_4} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_5} {, Tile_Type: CLBLL_L_X2Y116} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_6} {, Tile_Type: CLBLM_R_X3Y116} {, Used_Site_Type: SLICEM} {
+} {Cell: Z_OBUF_inst_i_7} {, Tile_Type: CLBLL_L_X2Y117} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_8} {, Tile_Type: CLBLL_L_X2Y115} {, Used_Site_Type: SLICEL} {
+} {Cell: Z_OBUF_inst_i_9} {, Tile_Type: CLBLL_L_X2Y119} {, Used_Site_Type: SLICEL} {
+} {Cell: blif_clk_net_IBUF_BUFG_inst} {, Tile_Type: CLK_BUFG_BOT_R_X139Y152} {, Used_Site_Type: BUFG} {
+} {Cell: blif_clk_net_IBUF_inst} {, Tile_Type: LIOB33_X0Y127} {, Used_Site_Type: IOB33} {
+} {Cell: blif_reset_net_IBUF_inst} {, Tile_Type: LIOB33_X0Y135} {, Used_Site_Type: IOB33} {
+}
+Tile_list: LIOB33_SING_X0Y100 LIOB33_X0Y101 LIOB33_X0Y103 LIOB33_X0Y103 LIOB33_X0Y105 LIOB33_X0Y105 LIOB33_X0Y107 LIOB33_X0Y107 LIOB33_X0Y109 LIOB33_X0Y109 LIOB33_X0Y111 LIOB33_X0Y101 LIOB33_X0Y113 LIOB33_X0Y113 LIOB33_X0Y115 LIOB33_X0Y115 LIOB33_X0Y117 LIOB33_X0Y117 LIOB33_X0Y119 LIOB33_X0Y119 LIOB33_X0Y121 LIOB33_X0Y121 LIOB33_X0Y111 LIOB33_X0Y123 LIOB33_X0Y125 LIOB33_X0Y125 LIOB33_X0Y123 LIOB33_X0Y127 LIOB33_X0Y129 LIOB33_X0Y129 LIOB33_X0Y131 LIOB33_X0Y131 LIOB33_X0Y133 LIOB33_X0Y133 CLBLL_L_X2Y115 CLBLL_L_X2Y118 CLBLL_L_X2Y115 CLBLM_R_X3Y115 CLBLM_R_X3Y115 CLBLM_R_X3Y115 CLBLM_R_X3Y115 CLBLL_L_X2Y115 CLBLL_L_X2Y115 CLBLM_R_X3Y117 CLBLM_R_X3Y117 CLBLM_R_X3Y117 CLBLM_R_X3Y117 CLBLM_R_X3Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y117 CLBLM_R_X3Y118 CLBLM_R_X3Y118 CLBLM_R_X3Y118 CLBLM_R_X3Y116 CLBLM_R_X3Y117 CLBLM_R_X3Y117 CLBLL_L_X2Y117 CLBLM_R_X3Y117 CLBLM_R_X3Y116 CLBLL_L_X2Y114 CLBLL_L_X2Y115 CLBLL_L_X2Y115 CLBLL_L_X2Y115 CLBLL_L_X2Y115 CLBLL_L_X2Y115 CLBLM_R_X3Y116 CLBLM_R_X3Y118 CLBLM_R_X3Y116 CLBLM_R_X3Y115 CLBLM_R_X3Y115 CLBLM_R_X3Y115 CLBLM_R_X3Y116 CLBLM_R_X3Y115 CLBLL_L_X2Y116 CLBLM_R_X3Y117 CLBLL_L_X2Y116 CLBLL_L_X2Y116 CLBLL_L_X2Y118 CLBLM_R_X3Y115 CLBLL_L_X2Y116 CLBLL_L_X2Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y115 CLBLM_R_X3Y118 CLBLM_R_X3Y116 CLBLM_R_X3Y117 CLBLL_L_X2Y118 CLBLL_L_X2Y119 CLBLM_R_X3Y118 CLBLM_R_X3Y118 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y117 CLBLL_L_X2Y117 CLBLM_R_X3Y117 CLBLL_L_X2Y119 CLBLL_L_X2Y116 CLBLL_L_X2Y116 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y120 CLBLL_L_X2Y119 CLBLL_L_X2Y120 CLBLL_L_X2Y120 CLBLL_L_X2Y120 CLBLM_R_X3Y116 CLBLM_R_X3Y116 CLBLM_R_X3Y116 CLBLM_R_X3Y116 CLBLL_L_X2Y116 CLBLL_L_X2Y116 CLBLM_R_X3Y118 CLBLM_R_X3Y116 CLBLM_R_X3Y118 CLBLM_R_X3Y118 CLBLM_R_X3Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y118 CLBLL_L_X2Y118 LIOB33_X0Y135 CLBLL_L_X2Y116 CLBLL_L_X2Y120 CLBLL_L_X2Y116 CLBLL_L_X2Y117 CLBLM_R_X3Y116 CLBLL_L_X2Y117 CLBLL_L_X2Y115 CLBLL_L_X2Y117 CLBLL_L_X2Y116 CLBLL_L_X2Y117 CLBLL_L_X2Y115 CLBLL_L_X2Y116 CLBLL_L_X2Y118 CLBLL_L_X2Y115 CLBLL_L_X2Y120 CLBLL_L_X2Y114 CLBLL_L_X2Y115 CLBLM_R_X3Y115 CLBLL_L_X2Y120 CLBLL_L_X2Y119 CLBLL_L_X2Y119 CLBLL_L_X2Y120 CLBLM_R_X3Y116 CLBLL_L_X2Y119 CLBLL_L_X2Y117 CLBLL_L_X2Y116 CLBLL_L_X2Y115 CLBLM_R_X3Y116 CLBLL_L_X2Y120 CLBLL_L_X2Y114 CLBLL_L_X2Y120 CLBLL_L_X2Y115 CLBLL_L_X2Y116 CLBLM_R_X3Y116 CLBLL_L_X2Y117 CLBLL_L_X2Y115 CLBLL_L_X2Y119 CLK_BUFG_BOT_R_X139Y152 LIOB33_X0Y127 LIOB33_X0Y135
+Tile_Types: LIOB33_SING LIOB33 CLBLL_L CLBLM_R CLK_BUFG_BOT_R

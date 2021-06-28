@@ -1,0 +1,54 @@
+Benchmarks,  BRAM_L,  BRAM_R,  CLBLL_L,  CLBLL_R,  CLBLM_L,  CLBLM_R,  CLK_BUFG_BOT_R,  DSP_R,  LIOB33,  LIOB33_SING,  RIOB33,  RIOB33_SING
+s382, , , X, , , , X, , X, X
+aes_iwls, X, X, X, , X, X, X, , X, X, X, X
+s386, , , X, , , X, X, , X, X
+s1488, , , X, , , X, X, , X, X
+s526, , , X, , , , X, , X, X
+s13207, , , X, , X, X, X, , X, X, X, X
+s15850scan, , , X, , X, X, X, , X, X, X, X
+cpu8080, , , X, , X, X, X, , X, X
+s349, , , X, , , , X, , X, X
+b15_scan, , , X, , X, X, X, , X, X, X, X
+s9234_1, , , X, , , X, X, , X, X, X, X
+b19, , , X, X, X, X, X, , X, X, X, X
+s35932, , , X, X, X, X, X, , X, X, X, X
+aes_opencore, X, X, X, X, X, X, X, , X, X, X, X
+oc8051, , , X, , X, X, X, , X, X, X, X
+s713, , , X, , , , X, , X, X, X
+s38584, , , X, X, X, X, X, , X, X, X, X
+ae18, , , X, X, X, X, X, , X, X, X, X
+s1423, , , X, , , X, X, , X, X
+s27, , , X, , , , X, , X, X
+s1238, , , X, , , X, X, , X, X
+ethernet_mac, , X, X, X, X, X, X, , X, X, X, X
+s820, , , X, , , X, X, , X, X
+s298, , , X, , , , X, , X, X
+c6288, , , X, , X, X, , , X, X, X, X
+s1423scan, , , X, , , X, X, , X, X
+s344, , , X, , , , X, , X, X
+open8, , , X, , X, X, X, , X, X
+s510, , , X, , , X, X, , X, X
+c2670, , , X, , , X, , , X, X, X, X
+s838_1, , , X, , , X, X, , X, X
+s832, , , X, , , X, X, , X, X
+s15850, , , X, , , X, X, , X, X, X, X
+s641, , , X, , , X, X, , X, X, X
+s526n, , , X, , , , X, , X, X
+s400, , , X, , , , X, , X, X
+des_perf_opt, , , X, X, X, X, X, , X, X, X, X
+des_area_opt, , , X, X, X, X, X, , X, X, X, X
+s444, , , X, , X, , X, , X, X
+s208_1, , , X, , , , X, , X, X
+c5315, , , X, , X, X, , , X, X, X, X
+mips_16_opencores, , , X, , , , X, , X, X
+s38417, , , X, , X, X, X, , X, X, X, X
+basicRSA, , , X, , X, X, X, , X, X, X, X
+openmsp430, , , X, , X, X, X, X, X, X, X, X
+s420_1, , , X, , , , X, , X, X
+s35932scan, , , X, , X, X, X, , X, X, X, X
+s1196, , , X, , , X, X, , X, X
+fpu, , , X, , X, X, X, X, X, X, X, X
+s1494, , , X, , , X, X, , X, X
+s5378, , , X, , , X, X, , X, X, X, X
+s13207scan, , , X, , X, X, X, , X, X, X, X
+c3540, , , X, , , X, , , X, X, X, X
