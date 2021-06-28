@@ -10,7 +10,7 @@ current_directory = os.getcwd()
 
 data_rows = ""
 
-header = "Part, Bonded_Sites Block RAMs, DSPs, CLBLs"
+header = "Part, Bonded_Sites,  Block RAMs, DSPs, CLBLs"
 
 sys.stdout = open('part_hardware_list.csv', 'w')               
 print(header)
