@@ -223,26 +223,38 @@ for dcp_file in dcp_file_list:
     tcl_file.write('set f [open ' + benc_name_dict[dcp_file] + '_csv.csv w]\n')
 
     #these lines allowed a parameterized header to match the desired queries
-    if is_cn is True:
+    if is_all is True:
         tcl_file.write('puts -nonewline $f \"Cell Name\"\n')
-    if is_ct is True:
         tcl_file.write('puts -nonewline $f \", Cell Type\"\n')
-    if is_tn is True:
         tcl_file.write('puts -nonewline $f \", Tile Name\"\n')
-    if is_tt is True:
         tcl_file.write('puts -nonewline $f \", Tile Type\"\n')
-    if is_sn is True:
         tcl_file.write('puts -nonewline $f \", Site Name\"\n')
-    if is_st is True:
         tcl_file.write('puts -nonewline $f \", Site Type\"\n')
-    if is_ast is True:
         tcl_file.write('puts -nonewline $f \", Alt Sites\"\n')
-    if is_su is True:
         tcl_file.write('puts -nonewline $f \", Site Used\"\n')
-    if is_bn is True:
         tcl_file.write('puts -nonewline $f \", Bel Name\"\n')
-    if is_bt is True:
         tcl_file.write('puts -nonewline $f \", Bel Type\"\n')
+    else:
+        if is_cn is True:
+            tcl_file.write('puts -nonewline $f \"Cell Name\"\n')
+        if is_ct is True:
+            tcl_file.write('puts -nonewline $f \", Cell Type\"\n')
+        if is_tn is True:
+            tcl_file.write('puts -nonewline $f \", Tile Name\"\n')
+        if is_tt is True:
+            tcl_file.write('puts -nonewline $f \", Tile Type\"\n')
+        if is_sn is True:
+            tcl_file.write('puts -nonewline $f \", Site Name\"\n')
+        if is_st is True:
+            tcl_file.write('puts -nonewline $f \", Site Type\"\n')
+        if is_ast is True:
+            tcl_file.write('puts -nonewline $f \", Alt Sites\"\n')
+        if is_su is True:
+            tcl_file.write('puts -nonewline $f \", Site Used\"\n')
+        if is_bn is True:
+            tcl_file.write('puts -nonewline $f \", Bel Name\"\n')
+        if is_bt is True:
+            tcl_file.write('puts -nonewline $f \", Bel Type\"\n')
     tcl_file.write('puts $f \"\"\n')
 
     #this new line separates the header from the next lines in the csv file
@@ -251,35 +263,56 @@ for dcp_file in dcp_file_list:
     #these lines create the foreach loop that goes through all the cells in the design and produces the desired information
     tcl_file.write('foreach C [get_cells -hierarchical] {\n')
     tcl_file.write('\tif {[get_property LOC $C] != ""} {\n')
-    if is_cn is True:
+    if is_all is True:
         tcl_file.write('\t\tputs -nonewline $f $C\n')
-    if is_ct is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_cell_type $C]\n')
-    if is_tn is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_tile_name $C]\n')
-    if is_tt is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_tile_type $C]\n')
-    if is_sn is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_site_name $C]\n')
-    if is_st is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_site_type $C]\n')
-    if is_ast is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_alt_site_types $C]\n')
-    if is_su is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_site_used $C]\n')
-    if is_bn is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_bel_name $C]\n')
-    if is_bt is True:
         tcl_file.write('\t\tputs -nonewline $f \",\" \n')
         tcl_file.write('\t\tputs -nonewline $f [get_bel_type $C]\n')
+    else:
+        if is_cn is True:
+            tcl_file.write('\t\tputs -nonewline $f $C\n')
+        if is_ct is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_cell_type $C]\n')
+        if is_tn is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_tile_name $C]\n')
+        if is_tt is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_tile_type $C]\n')
+        if is_sn is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_site_name $C]\n')
+        if is_st is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_site_type $C]\n')
+        if is_ast is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_alt_site_types $C]\n')
+        if is_su is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_site_used $C]\n')
+        if is_bn is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_bel_name $C]\n')
+        if is_bt is True:
+            tcl_file.write('\t\tputs -nonewline $f \",\" \n')
+            tcl_file.write('\t\tputs -nonewline $f [get_bel_type $C]\n')
     tcl_file.write('\t\tputs $f \"\"\n')
     tcl_file.write('\t}\n}\n')
     tcl_file.write('close $f\n')
