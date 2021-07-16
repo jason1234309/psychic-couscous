@@ -102,17 +102,20 @@ open_checkpoint /home/jprescot/working_directory/psychic-couscous/bell_testing/s
 puts "Opened dcp..."
 set f [open aes_opencore_csv.csv w]
 puts -nonewline $f "Cell Name"
-puts -nonewline $f ", Tile Name"
-puts -nonewline $f ", Tile Type"
+puts -nonewline $f ", Site Name"
+puts -nonewline $f ", Site Type"
+puts -nonewline $f ", Alt Sites"
 puts $f ""
 
 foreach C [get_cells -hierarchical] {
 	if {[get_property LOC $C] != ""} {
 		puts -nonewline $f $C
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_name $C]
+		puts -nonewline $f [get_site_name $C]
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_type $C]
+		puts -nonewline $f [get_site_type $C]
+		puts -nonewline $f "," 
+		puts -nonewline $f [get_alt_site_types $C]
 		puts $f ""
 	}
 }
@@ -121,17 +124,20 @@ open_checkpoint /home/jprescot/working_directory/psychic-couscous/bell_testing/s
 puts "Opened dcp..."
 set f [open ae18_csv.csv w]
 puts -nonewline $f "Cell Name"
-puts -nonewline $f ", Tile Name"
-puts -nonewline $f ", Tile Type"
+puts -nonewline $f ", Site Name"
+puts -nonewline $f ", Site Type"
+puts -nonewline $f ", Alt Sites"
 puts $f ""
 
 foreach C [get_cells -hierarchical] {
 	if {[get_property LOC $C] != ""} {
 		puts -nonewline $f $C
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_name $C]
+		puts -nonewline $f [get_site_name $C]
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_type $C]
+		puts -nonewline $f [get_site_type $C]
+		puts -nonewline $f "," 
+		puts -nonewline $f [get_alt_site_types $C]
 		puts $f ""
 	}
 }
@@ -140,17 +146,20 @@ open_checkpoint /home/jprescot/working_directory/psychic-couscous/bell_testing/s
 puts "Opened dcp..."
 set f [open b15_scan_csv.csv w]
 puts -nonewline $f "Cell Name"
-puts -nonewline $f ", Tile Name"
-puts -nonewline $f ", Tile Type"
+puts -nonewline $f ", Site Name"
+puts -nonewline $f ", Site Type"
+puts -nonewline $f ", Alt Sites"
 puts $f ""
 
 foreach C [get_cells -hierarchical] {
 	if {[get_property LOC $C] != ""} {
 		puts -nonewline $f $C
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_name $C]
+		puts -nonewline $f [get_site_name $C]
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_type $C]
+		puts -nonewline $f [get_site_type $C]
+		puts -nonewline $f "," 
+		puts -nonewline $f [get_alt_site_types $C]
 		puts $f ""
 	}
 }
@@ -159,17 +168,20 @@ open_checkpoint /home/jprescot/working_directory/psychic-couscous/bell_testing/s
 puts "Opened dcp..."
 set f [open aes_iwls_csv.csv w]
 puts -nonewline $f "Cell Name"
-puts -nonewline $f ", Tile Name"
-puts -nonewline $f ", Tile Type"
+puts -nonewline $f ", Site Name"
+puts -nonewline $f ", Site Type"
+puts -nonewline $f ", Alt Sites"
 puts $f ""
 
 foreach C [get_cells -hierarchical] {
 	if {[get_property LOC $C] != ""} {
 		puts -nonewline $f $C
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_name $C]
+		puts -nonewline $f [get_site_name $C]
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_type $C]
+		puts -nonewline $f [get_site_type $C]
+		puts -nonewline $f "," 
+		puts -nonewline $f [get_alt_site_types $C]
 		puts $f ""
 	}
 }
@@ -178,17 +190,20 @@ open_checkpoint /home/jprescot/working_directory/psychic-couscous/bell_testing/s
 puts "Opened dcp..."
 set f [open b19_csv.csv w]
 puts -nonewline $f "Cell Name"
-puts -nonewline $f ", Tile Name"
-puts -nonewline $f ", Tile Type"
+puts -nonewline $f ", Site Name"
+puts -nonewline $f ", Site Type"
+puts -nonewline $f ", Alt Sites"
 puts $f ""
 
 foreach C [get_cells -hierarchical] {
 	if {[get_property LOC $C] != ""} {
 		puts -nonewline $f $C
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_name $C]
+		puts -nonewline $f [get_site_name $C]
 		puts -nonewline $f "," 
-		puts -nonewline $f [get_tile_type $C]
+		puts -nonewline $f [get_site_type $C]
+		puts -nonewline $f "," 
+		puts -nonewline $f [get_alt_site_types $C]
 		puts $f ""
 	}
 }
