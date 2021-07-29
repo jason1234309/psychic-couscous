@@ -72,6 +72,33 @@ with open("tile_type_per_bench.csv", 'w') as output_file:
                             i = i + 1
 
 
+with open("bench_per_tile_type.csv", 'w') as output_file2:
+    header = "Tile Type"
+    total_tiles_types = {}
+    with open("7_series_tiles.txt", 'r') as bench_file:
+        for line3 in bench_file:
+            current_line = line3.split(",")
+            clean_line = []
+            for object in current_line:
+                clean_line.append(object.strip())
+            header = header + ', ' + clean_line[0] + '/' + clean_line[1]
+    output_file2.write(header + '\n')
+
+    for element in types_list:
+        output_file2.write(element)
+        with open("7_series_tiles.txt", 'r') as bench_file2:
+            for line4 in bench_file2:
+                current_line2 = line4.split(",")
+
+                clean_line2 = []
+                for object2 in current_line2:
+                    clean_line2.append(object2.strip())
+
+                if element in clean_line2:
+                    output_file2.write(', X')
+                else:
+                    output_file2.write(', ')
+            output_file2.write('\n')
 
 
 
